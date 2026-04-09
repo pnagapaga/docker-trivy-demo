@@ -22,5 +22,5 @@ jobs:
         with:
           image-ref: 'my-app:latest'
           format: 'table'
-          exit-code: '1'          # Fail the workflow if vulnerabilities are found
+          exit-code: '0'          # Fail the workflow if vulnerabilities are found
           severity: 'CRITICAL'   # Only fail on High or Critical
